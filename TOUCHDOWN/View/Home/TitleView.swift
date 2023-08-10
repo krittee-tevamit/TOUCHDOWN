@@ -1,0 +1,35 @@
+//
+//  TitleView.swift
+//  TOUCHDOWN
+//
+//  Created by codinglife365 on 10/8/2566 BE.
+//
+
+import SwiftUI
+
+struct TitleView: View {
+    
+    var title: String
+    
+    var body: some View {
+        HStack {
+            Text(title)
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+            
+            Spacer()
+            
+        }//: HSTACK
+        .padding(.horizontal)
+        .padding(.top, 15)
+        .padding(.bottom, 10)
+    }
+}
+
+struct TitleView_Previews: PreviewProvider {
+    static var previews: some View {
+        TitleView(title: "Helmat")
+            .previewLayout(.sizeThatFits)
+            .background(colorBackground)
+    }
+}
