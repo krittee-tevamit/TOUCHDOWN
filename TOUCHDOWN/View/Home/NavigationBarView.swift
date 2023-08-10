@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct NavigationBarView: View {
+    // MARK: - PROPERTIES
     
+    @State private var isAnimated: Bool = false
+    
+    // MARK: - BODY
     var body: some View {
         HStack {
             
@@ -23,6 +27,13 @@ struct NavigationBarView: View {
             Spacer()
             
             LogoView()
+                .opacity(isAnimated ? 1 : 0)
+                .offset(x:0, y: isAnimated ? 0 : -25)
+                .onAppear {
+                    withAnimation(.easeOut(duration: 0.5)) {
+                        isAnimated.toggle()
+                    }
+                }
             
             Spacer()
             
