@@ -14,6 +14,7 @@
 		485EDBA92A849C88009068DB /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485EDBA82A849C88009068DB /* CategoryModel.swift */; };
 		485EDBAB2A849DE4009068DB /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485EDBAA2A849DE4009068DB /* CategoryItemView.swift */; };
 		485EDBAD2A84A651009068DB /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485EDBAC2A84A651009068DB /* CategoryGridView.swift */; };
+		485EDBAF2A84D8AA009068DB /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485EDBAE2A84D8AA009068DB /* SectionView.swift */; };
 		48FBF5D82A831AB80064E671 /* TOUCHDOWNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FBF5D72A831AB80064E671 /* TOUCHDOWNApp.swift */; };
 		48FBF5DA2A831AB80064E671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FBF5D92A831AB80064E671 /* ContentView.swift */; };
 		48FBF5DC2A831ABA0064E671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FBF5DB2A831ABA0064E671 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		485EDBA82A849C88009068DB /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		485EDBAA2A849DE4009068DB /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		485EDBAC2A84A651009068DB /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		485EDBAE2A84D8AA009068DB /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		48FBF5D42A831AB80064E671 /* TOUCHDOWN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOUCHDOWN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FBF5D72A831AB80064E671 /* TOUCHDOWNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOUCHDOWNApp.swift; sourceTree = "<group>"; };
 		48FBF5D92A831AB80064E671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				485EDBA62A848678009068DB /* FeaturedTabView.swift */,
 				485EDBAA2A849DE4009068DB /* CategoryItemView.swift */,
 				485EDBAC2A84A651009068DB /* CategoryGridView.swift */,
+				485EDBAE2A84D8AA009068DB /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				485EDBAD2A84A651009068DB /* CategoryGridView.swift in Sources */,
 				485EDBA92A849C88009068DB /* CategoryModel.swift in Sources */,
 				48FBF5FB2A8328E80064E671 /* NavigationBarView.swift in Sources */,
+				485EDBAF2A84D8AA009068DB /* SectionView.swift in Sources */,
 				485EDBAB2A849DE4009068DB /* CategoryItemView.swift in Sources */,
 				485EDBA72A848678009068DB /* FeaturedTabView.swift in Sources */,
 				485EDBA12A848126009068DB /* PlayerModel.swift in Sources */,

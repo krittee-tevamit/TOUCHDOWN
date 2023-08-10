@@ -27,6 +27,8 @@ struct CategoryItemView: View {
                 Text(category.name.uppercased())
                     .fontWeight(.light)
                     .foregroundColor(.gray)
+                
+                Spacer()
             }//: HSTACK
             .padding()
             .background(Color.white.cornerRadius(12))
