@@ -40,6 +40,10 @@ struct ContentView: View {
                             }//: FOREACH
                         }//: LAZYVGRID
                         .padding()
+                        
+                        TitleView(title: "Brand")
+                        
+                        BrandGridView()
                             
                         FooterView()
                             .padding(.horizontal)
